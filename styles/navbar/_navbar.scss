@@ -29,21 +29,33 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-
-    div {
-      display: block;
-    }
-
-.up {
-  height: 60px;
-  width: 250.55px;
-  background-color: red;
 }
 
+.up,
 .down {
-  height: 60px;
-  width: 250.55px;
-  background-color: green;
+    height: 60px;
+    width: 250.55px;
+    position: relative;
+}
+
+.transparent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0); /* Transparent par défaut */
+
+    &:hover {
+        background-color: rgba(127, 255, 212, 0); /* Transparent au survol */
+    }
+}
+
+/* Styles pour les éléments "item1," "item2," et "item3" */
+.item1:hover .transparent,
+.item2:hover .transparent,
+.item3:hover .transparent {
+    background-color: rgba(127, 255, 212, 0); /* Reste transparent au survol des item1, item2 ou item3 */
 }
 
 li {
@@ -53,9 +65,16 @@ li {
     align-items: center;
     justify-content: center;
     height: 80px;
-    &:hover {
-        color: $color3;
-        background-color: $color1;
-    }
 }
+
+/* Styles pour les éléments li au survol */
+li:hover {
+    color: $color3;
+    background-color: $color1;
 }
+
+
+
+
+
+
