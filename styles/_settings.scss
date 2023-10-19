@@ -1,0 +1,16 @@
+$color1 : rgb(243, 243, 243);
+$color2: rgb(197, 191, 191);
+$color3:rgb(21, 20, 20);
+
+html {
+    position: relative;
+}
+
+body {
+    background: url(../images/bg.jpg) center/cover;
+    font-family: 'Merriweather', serif;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+

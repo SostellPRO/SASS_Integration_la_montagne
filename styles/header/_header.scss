@@ -1,0 +1,29 @@
+header {
+    height: 100vh;
+      display: flex;
+  justify-content: center; 
+  align-items: center;
+
+ div {
+    color: $color1;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  p {
+font-style: italic;
+  }
+
+  i {
+font-size: 4rem;
+padding: 42px;
+  }
+}
+ }
+

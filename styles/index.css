@@ -1,0 +1,109 @@
+html {
+  position: relative;
+}
+
+body {
+  background: url(../images/bg.jpg) center/cover;
+  font-family: "Merriweather", serif;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header div {
+  color: rgb(243, 243, 243);
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+header div h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+header div p {
+  font-style: italic;
+}
+header div i {
+  font-size: 4rem;
+  padding: 42px;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.2980392157);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(243, 243, 243);
+  font-weight: 700;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+nav .left {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+}
+li:hover {
+  color: rgb(21, 20, 20);
+  background-color: rgb(243, 243, 243);
+}/*# sourceMappingURL=index.css.map */
