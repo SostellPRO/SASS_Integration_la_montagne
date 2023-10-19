@@ -38,7 +38,7 @@ header div p {
 }
 header div i {
   font-size: 4rem;
-  padding: 42px;
+  padding: 50px;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
-  height: 100px;
+  height: 80px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -60,7 +60,8 @@ nav {
           align-items: center;
   text-transform: uppercase;
 }
-nav .left {
+
+.left {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
@@ -88,8 +89,20 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-li {
+ul div {
+  display: block;
+}
+ul .up {
+  height: 60px;
+  width: 250.55px;
+  background-color: red;
+}
+ul .down {
+  height: 60px;
+  width: 250.55px;
+  background-color: green;
+}
+ul li {
   padding-left: 20px;
   padding-right: 20px;
   display: -webkit-box;
@@ -101,9 +114,9 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100px;
+  height: 80px;
 }
-li:hover {
+ul li:hover {
   color: rgb(21, 20, 20);
   background-color: rgb(243, 243, 243);
 }/*# sourceMappingURL=index.css.map */
